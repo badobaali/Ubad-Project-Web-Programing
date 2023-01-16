@@ -1,0 +1,23 @@
+#page-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/projectBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+    /* viewpoint for exampl if the screen size is 1080px then 1 vh is 10.8px */
+
+    
+    text-align: center;
+}
+
+#page-banner h1{
+    margin-top: 60px;
+    font-size: 52px;
+}
+
+#page-banner .btn{
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+}
